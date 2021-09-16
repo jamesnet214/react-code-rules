@@ -8,7 +8,7 @@
 
 | <img src="https://user-images.githubusercontent.com/52397976/133613056-76f54e00-4228-4147-b185-75d634726fc2.png" width="200" height="200" /> | <img src="https://user-images.githubusercontent.com/52397976/133614530-6626e27c-4193-4ee0-bca6-27ebb8dbb310.png" width="200" height="200" /> |
 | Visual Studio Code | Node.js |
-| `Windows` `Mac` `Linux` | | 
+| `Windows` `Mac` `Linux` | a | 
 
 
 
