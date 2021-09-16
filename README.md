@@ -1,5 +1,7 @@
 # React Code Rules
 
+## 리액트 환경 구성
+
 <table>
     <tr>
         <td>IDE</td> 
