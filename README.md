@@ -29,7 +29,7 @@ npm install @material-ui/icons
 
 <br/>
 
-## React Ignore (항목 제외)
+## files.exclude (항목 제외)
 직접 수정하는 빈도가 거의 없는 파일을 프로젝트에서 제외시켜 안전하게 관리할 수 있습니다.
 > 제외 폴더 또는 파일은 물리적으로 삭제되는 것이 아닌 숨김 기능입니다.
 
