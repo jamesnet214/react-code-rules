@@ -21,7 +21,7 @@
 ## React 파일 제외
 직접 수정하는 빈도가 거의 없는 파일을 프로젝트에서 제외시켜 안전하게 관리할 수 있습니다.
 
-파일위치: .vscode/settings.js
+**.vscode/settings.js**
 
 ```json
 {
