@@ -49,6 +49,10 @@ npm install @material-ui/icons
 ## 라우트 (Route)
 TBD...
 
+**설치방법**
+```
+npm install react-route-dom
+```
 <br/> 
 
 ## 특정항목 제외 (files.exclude)
