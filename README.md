@@ -1,6 +1,7 @@
 # React Code Rules
 리액트 환경에서 좋은 구조를 통해 더 효율적인 개발을 하기 위한 개발 방법을 소개합니다.
-<br>
+
+<br/>
 
 ## 만든이 소개
 [DevNcore 오픈소스 팀](https://github.com/devncore/devncore)이 리드하고 있습니다.
