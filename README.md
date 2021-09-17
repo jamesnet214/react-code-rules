@@ -107,5 +107,8 @@ npm install react-route-dom
 
 <br />
 
+## 프로젝트 구조
+TBD..
+
 ## State 끌어올리기
 TBD..
