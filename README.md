@@ -15,9 +15,10 @@
     <tr align="center">
         <td>Visual Studio Code</td> 
         <td>Node.js</td> 
+        <td>Material-UI</td> 
     </tr>
     <tr align="center">
-        <td colspan="2">Windows, Mac, Linux</td> 
+        <td colspan="3">Windows, Mac, Linux</td> 
     </tr>
 </table>
 
