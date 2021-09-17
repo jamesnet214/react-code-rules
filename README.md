@@ -1,6 +1,11 @@
-# React Code Rules
+a# React Code Rules
 
-<br />
+<br>
+
+## 만든이 소개
+[DevNcore 오픈소스 팀](https://github.com/devncore/devncore)이 리드하고 있습니다.
+
+<br>
 
 ## 리액트 환경 구성
 **React Code Rules**에서 제안하는 이상적인 환경구성은 다음과 같습니다.
