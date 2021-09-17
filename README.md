@@ -1,7 +1,9 @@
 # React Code Rules
 
+<br />
+
 ## 리액트 환경 구성
-**React Code Rules**에서 사용하는 환경구성은 다음과 같습니다.
+**React Code Rules**에서 제안하는 이상적인 환경구성은 다음과 같습니다.
 <table>
     <tr align="center">
         <td>IDE</td> 
