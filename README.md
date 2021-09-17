@@ -1,7 +1,7 @@
 # React Code Rules
 
 ## 리액트 환경 구성
-
+**React Code Rules**에서 사용하는 환경구성은 다음과 같습니다.
 <table>
     <tr align="center">
         <td>IDE</td> 
