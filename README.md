@@ -53,6 +53,8 @@ npm install @material-ui/icons
 }
 ```
 
+<br />
+
 | 제외 전 모습 | 제외 후 모습 |
 |:---:|:---:|
 | ![image](https://user-images.githubusercontent.com/52397976/133618108-b4e42ead-b52a-4125-bbaf-d407f9c45da3.png) | ![image](https://user-images.githubusercontent.com/52397976/133618228-ace140bb-362f-4d1c-8bad-65b7452060a1.png) |
