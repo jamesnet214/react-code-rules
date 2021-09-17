@@ -1,12 +1,12 @@
 # React Code Rules
 리액트 환경에서 좋은 구조를 통해 더 효율적인 개발을 하기 위한 개발 방법을 소개합니다.
 
-<br/>
+<br />
 
 ## 만든이 소개
 [DevNcore 오픈소스 팀](https://github.com/devncore/devncore)이 리드하고 있습니다.
 
-<br>
+<br />
 
 ## 리액트 환경 구성
 **React Code Rules**에서 제안하는 이상적인 환경구성은 다음과 같습니다.  
@@ -49,7 +49,7 @@ TBD..
         <td>Package</td> 
     </tr>
     <tr align="center">
-        <td><img src="https://user-images.githubusercontent.com/52397976/133802380-dc2d866a-be68-45ad-b8c6-097339ccff94.png" width="200" height="200" /></td> 
+        <td><img src="https://user-images.githubusercontent.com/52397976/133802680-038e3282-3160-46b8-9790-68db0ed64537.png" width="200" height="200" /></td> 
     </tr>
     <tr align="center">
         <td>NPM</td> 
