@@ -6,6 +6,7 @@
     <tr align="center">
         <td>IDE</td> 
         <td>Javascript</td> 
+        <td>Framework</td> 
     </tr>
     <tr align="center">
         <td><img src="https://user-images.githubusercontent.com/52397976/133613056-76f54e00-4228-4147-b185-75d634726fc2.png" width="200" height="200" /></td> 
