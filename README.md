@@ -10,7 +10,8 @@
 
 ## 리액트 환경 구성
 **React Code Rules**에서 제안하는 이상적인 환경구성은 다음과 같습니다.  
-<br/>
+
+<br />
 
 <table>
     <tr align="center">
@@ -32,6 +33,8 @@
         <td colspan="3">Windows, Mac, Linux</td> 
     </tr>
 </table>
+
+<br />
 
 ### Visual Studio Code
 **vscode**는 리액트를 개발하기 위한 최고의 툴 선택입니다.
@@ -70,7 +73,7 @@ npm install @material-ui/core
 npm install @material-ui/icons
 ```
 
-<br/>
+<br />
 
 ## 라우트 (Route)
 TBD...
@@ -79,7 +82,7 @@ TBD...
 ```
 npm install react-route-dom
 ```
-<br/> 
+<br />
 
 ## 특정항목 제외 (files.exclude)
 직접 수정하는 빈도가 거의 없는 파일을 프로젝트에서 제외시켜 안전하게 관리할 수 있습니다.
@@ -110,5 +113,9 @@ npm install react-route-dom
 ## 프로젝트 구조
 TBD..
 
+<br />
+
 ## State 끌어올리기
 TBD..
+
+<br />
