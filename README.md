@@ -8,7 +8,7 @@
 <br>
 
 ## 리액트 환경 구성
-**React Code Rules**에서 제안하는 이상적인 환경구성은 다음과 같습니다.
+**React Code Rules**에서 제안하는 이상적인 환경구성은 다음과 같습니다.  
 <br/>
 
 <table>
