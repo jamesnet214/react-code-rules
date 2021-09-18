@@ -122,6 +122,11 @@ npm install react-route-dom
 ## 프로젝트 구조
 TBD..
 
+- src
+  - apps
+  - components
+  - pages
+
 <br />
 
 ## State 끌어올리기
