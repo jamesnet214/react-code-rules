@@ -122,11 +122,11 @@ npm install react-route-dom
 ## 프로젝트 구조
 TBD..
 
-- 📁 src
-  - 📁 apps
-  - 📁 components
-  - 📁 pages
-  - index.js
+📁 src
+- 📁 apps
+- 📁 components
+- 📁 pages
+- index.js
 <br />
 
 ## State 끌어올리기
