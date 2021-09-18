@@ -1,9 +1,27 @@
-# React Code Rules
-리액트 환경에서 좋은 구조를 통해 더 효율적인 개발을 하기 위한 개발 방법을 소개합니다.
+<div align=center>
+  <h2>React Code Rules</h2>
+  <sub>이 레포지토리는 리액트 환경에서 좋은 구조를 통해 더 효율적인 개발을 하기 위한 개발 방법을 소개합니다.</sub> 
+  <br/>
+  <br/>
+ 
+  <sub align="center">
+    이 레포지토리는 DevNcore팀이 관리하고 있습니다.
+  <br />
+  <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
+  </sub>
+ 
+  <br />
+  <br />
+ 
+  <p align="center">
+   <a href="https://github.com/devncore/react-code-rules/stargazers"><img src="https://img.shields.io/github/stars/devncore/react-code-rules" alt="Github Stars"></a>
+   <img src="https://img.shields.io/github/license/devncore/react-code-rules" alt="License">
+   <a href="https://github.com/devncore/react-code-rules/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/react-code-rules" alt="Commits-per-month"></a>
+ </p>
+</div>
 
-## 만든이 소개
-[DevNcore 오픈소스 팀](https://github.com/devncore/devncore)이 리드하고 있습니다.
-
+  <br />
+  
 ## 리액트 환경 구성
 **React Code Rules**에서 제안하는 이상적인 환경구성은 다음과 같습니다.  
 
