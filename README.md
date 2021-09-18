@@ -1,14 +1,12 @@
 <div align=center>
   <h2>React Code Rules</h2>
-  <sub>이 레포지토리는 리액트 환경에서 좋은 구조를 통해 더 효율적인 개발을 하기 위한 개발 방법을 소개합니다.</sub> 
+  이 레포지토리는 리액트 환경에서 좋은 구조를 통해 더 효율적인 개발을 하기 위한 개발 방법을 소개합니다.
   <br/>
   <br/>
  
-  <sub align="center">
-    이 레포지토리는 DevNcore팀이 관리하고 있습니다.
+  이 레포지토리는 DevNcore팀이 관리하고 있습니다.
   <br />
   <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
-  </sub>
  
   <br />
   <br />
