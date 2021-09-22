@@ -8,7 +8,7 @@ import Dashboard from "../../../pages/dashboard/views/dashboard.app";
 import '../design/portal.css';
 
 export default function() {
-    const [isOpen, setIsOpen] = React.useState(true);
+    const [isOpen, setIsOpen] = React.useState(false);
     const theme = useTheme();
     const useStyles = makeStyles((theme) => ({ }));
     const classes = useStyles();

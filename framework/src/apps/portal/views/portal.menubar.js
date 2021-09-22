@@ -1,17 +1,16 @@
 import React from 'react';
-import MenuIcon from '@material-ui/icons/Menu';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { AppBar, Toolbar, IconButton, Typography } from '@material-ui/core';
+import { AppBar, Toolbar, Box } from '@material-ui/core';
+import MenuButton from '../components/menu.button';
+import MailButton from '../components/mail.button';
+import NotificationButton from '../components/notification.button';
+import AccountButton from '../components/account.button';
+import AppTitle from '../components/apptitle.typo';
 
 export default function(props) {
     const { isOpen } = props;
     const theme = useTheme();
-    const useStyles = makeStyles((theme) => ({
-        appBar: {
-          position: "relative"
-        }, 
-    }));
+    const useStyles = makeStyles((theme) => ({ }));
     const classes = useStyles();
 
     function menuClick() {
@@ -19,22 +18,16 @@ export default function(props) {
     }
 
     return (
-        <AppBar className={classes.appBar}>
+        <AppBar position={'relative'}>
             <Toolbar>
-                <IconButton size="large"
-                            edge="start"
-                            color="inherit"
-                            aria-label="open drawer"
-                            sx={{ mr: 2 }}
-                            onClick={menuClick}>
-                    {isOpen ? <MenuIcon /> : <ChevronLeftIcon />}
-                </IconButton>
-                <Typography variant="h6"
-                            noWrap
-                            component="div"
-                            sx={{ display: { xs: 'none', sm: 'block' } }}>
-                    REACT FRAMEWORK
-                </Typography>
+                <MenuButton menuClick={menuClick}/>
+                <AppTitle title={'REACT CODE RULES'}/>
+                <Box sx={{ flexGrow: 1 }} />
+                <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+                    <MailButton/>
+                    <NotificationButton/>
+                    <AccountButton/>
+                </Box>
             </Toolbar>
         </AppBar>
     );
