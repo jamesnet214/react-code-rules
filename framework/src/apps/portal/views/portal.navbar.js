@@ -1,8 +1,9 @@
 import React from 'react';
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { Drawer } from '@material-ui/core';
+import MenuTreeView from '../components/menu.treeview';
 
-const drawerWidth = 280;
+const drawerWidth = 250;
 
 export default function(props) {
     const { isOpen } = props;
@@ -14,7 +15,7 @@ export default function(props) {
             position: "relative",
             backgroundColor: "white",
             transition: "width 0.3s",
-            zIndex: -1
+            zIndex: 0
         },
         drawerPaper: {
             width: isOpen ? drawerWidth : 0,
@@ -29,7 +30,7 @@ export default function(props) {
                 anchor={'left'}
                 className={classes.drawer}
                 classes={{paper: classes.drawerPaper}}>
-            내비바<br/>
+            <MenuTreeView/>
         </Drawer>
     );
 }

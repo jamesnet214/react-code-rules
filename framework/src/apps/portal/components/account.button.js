@@ -1,5 +1,5 @@
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import { IconButton, Badge } from '@material-ui/core';
+import { IconButton } from '@material-ui/core';
 
 export default function() {
     return (

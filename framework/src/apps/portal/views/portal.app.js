@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route } from 'react-router';
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import MenuBar from './portal.menubar';
 import NavBar from './portal.navbar';
@@ -27,7 +28,7 @@ export default function() {
                 <div className={'frame'}>
                     <NavBar isOpen={isOpen}/>
                     <main className={classes.content}>
-                        <Dashboard/>
+                        <Route path='/pages1' component={Dashboard}/>
                     </main>
                 </div>
             </div>

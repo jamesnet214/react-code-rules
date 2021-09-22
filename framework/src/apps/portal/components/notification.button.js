@@ -4,10 +4,10 @@ import { IconButton, Badge } from '@material-ui/core';
 export default function() {
     return (
         <IconButton size="large"
-            aria-label="show 17 new notifications"
-            color="inherit">
+                    aria-label="show 17 new notifications"
+                    color="inherit">
             <Badge badgeContent={17} 
-                    color="error">
+                   color="error">
                 <NotificationsIcon />
             </Badge>
         </IconButton>
