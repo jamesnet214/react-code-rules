@@ -3,8 +3,16 @@ import Icon from "../../../partials/control/icon";
 export default function() {
     return (
         <div>
-            <Icon iconType="Mail" color="primary"/>
-            <Icon iconType="Settings" color="primary"/>
+            내비바<br/>
+            내비바<br/>
+            내비바<br/>
+            내비바<br/>
+            내비바<br/>
+            내비바<br/>
+            내비바<br/>
+            내비바<br/>
+            내비바<br/>
+            내비바<br/>
         </div>
     );
 }

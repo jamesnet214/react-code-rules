@@ -1,10 +1,24 @@
-import Icon from "../../../partials/control/icon";
+import MenuBar from './portal.menubar';
+import NavBar from './portal.navbar';
+import { Grid } from '@material-ui/core';
+
+import Dashboard from "../../../pages/dashboard/views/dashboard.app";
+
+var test = 'james';
 
 export default function() {
     return (
-        <div>
-            <Icon iconType="Mail" color="primary"/>
-            <Icon iconType="Settings" color="primary"/>
-        </div>
+        <Grid container>
+            <Grid item xs={12}>
+                <MenuBar/>    
+            </Grid>
+            <Grid item xs={2}>
+                <NavBar/>
+                {test}
+            </Grid>
+            <Grid item xs={10}>
+                <Dashboard/>
+            </Grid>
+        </Grid>
     );
 }
