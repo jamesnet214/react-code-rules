@@ -27,14 +27,14 @@
 
 <table>
     <tr align="center">
-        <td>IDE</td> 
-        <td>Javascript</td> 
-        <td>Framework</td> 
+        <td><b>IDE</b></td> 
+        <td><b>Javascript</b></td> 
+        <td><b>Framework</b></td> 
     </tr>
     <tr align="center">
-        <td><img src="https://user-images.githubusercontent.com/52397976/133613056-76f54e00-4228-4147-b185-75d634726fc2.png" width="200" height="200" /></td> 
-        <td><img src="https://user-images.githubusercontent.com/52397976/133796360-b2e424e8-b1bd-41be-ac0a-b06a898217ee.png" width="200" height="200" /></td> 
-        <td><img src="https://user-images.githubusercontent.com/52397976/133796616-1cb0301f-7ec6-481f-8844-dd3ca1957fe2.png" width="200" height="200" /></td> 
+        <td><img src="https://user-images.githubusercontent.com/52397976/133613056-76f54e00-4228-4147-b185-75d634726fc2.png" width="130"/></td> 
+        <td><img src="https://user-images.githubusercontent.com/52397976/133796360-b2e424e8-b1bd-41be-ac0a-b06a898217ee.png" width="110"/></td> 
+        <td><img src="https://user-images.githubusercontent.com/52397976/133796616-1cb0301f-7ec6-481f-8844-dd3ca1957fe2.png" width="130"/></td> 
     </tr>
     <tr align="center">
         <td>Visual Studio Code</td> 
@@ -68,7 +68,7 @@ TBD..
         <td>Package</td> 
     </tr>
     <tr align="center">
-        <td><img src="https://user-images.githubusercontent.com/52397976/133802680-038e3282-3160-46b8-9790-68db0ed64537.png" width="200" height="200" /></td> 
+        <td><img src="https://user-images.githubusercontent.com/52397976/133802680-038e3282-3160-46b8-9790-68db0ed64537.png" width="130"/></td> 
     </tr>
     <tr align="center">
         <td>NPM</td> 
