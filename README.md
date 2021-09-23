@@ -52,7 +52,7 @@
 <br />
 
 ### Visual Studio Code
-**vscode**는 리액트를 개발하기 위한 최고의 툴 선택입니다.
+**VS Code**는 리액트를 개발하기 위한 최고의 툴입니다.
 
 <br />
 
@@ -62,9 +62,18 @@ TBD..
 <br />
 
 ### Material-UI
-TBD..
+리액트 장점을 잘 살린 가장 유명한 오픈소스 UI 프레임워크 중 하나입니다.
+
+**설치방법**
+```
+npm install @material-ui/core
+npm install @material-ui/icons
+```
 
 <br />
+
+## NPM
+**NPM**은 node.js 설치에 포함된 공식 패키지 관리 도구입니다.
 
 <table>
     <tr align="center">
@@ -85,21 +94,6 @@ TBD..
 
 <br />
 
-## NPM
-**NPM**은 node.js 설치에 포함된 공식 패키지 관리 도구입니다.
-
-<br />
-
-## Material-UI
-리액트 장점을 잘 살린 가장 유명한 오픈소스 UI 프레임워크 중 하나입니다.
-
-**설치방법**
-```
-npm install @material-ui/core
-npm install @material-ui/icons
-```
-
-<br />
 
 ## 라우트 (Route)
 TBD...
@@ -108,13 +102,15 @@ TBD...
 ```
 npm install react-route-dom
 ```
+
 <br />
 
 ## 특정항목 제외 (files.exclude)
-직접 수정하는 빈도가 거의 없는 파일을 프로젝트에서 제외시켜 안전하게 관리할 수 있습니다.
-> 제외 폴더 또는 파일은 물리적으로 삭제되는 것이 아닌 숨김 기능입니다.
+> 폴더 또는 파일을 제외하는 것은 단지 숨김 기능이며, 물리적으로 삭제되지 않습니다.
 
-**.vscode/settings.js**
+직접 수정하는 빈도가 거의 없는 파일을 프로젝트에서 제외시켜 안전하게 관리할 수 있습니다.
+
+**`.vscode/settings.js`**
 
 ```json
 {
@@ -129,10 +125,10 @@ npm install react-route-dom
 
 <br />
 
-| 제외 전 모습 | 제외 후 모습 |
-|:---:|:---:|
-| ![image](https://user-images.githubusercontent.com/52397976/133618108-b4e42ead-b52a-4125-bbaf-d407f9c45da3.png) | ![image](https://user-images.githubusercontent.com/52397976/133618228-ace140bb-362f-4d1c-8bad-65b7452060a1.png) |
-| 실제로 사용하지 않거나 불필요한 <br />파일이 눈엣가시.. | 작업 구조를 명확하게 구분하여 관리 |
+| 제외 전 | 제외 후 |
+|:------:|:-------:|
+| ![image][before-exclude] | ![image][after-exclude] |
+| 실제로 사용하지 않거나 <br /> 불필요한 파일이 눈엣가시.. | 작업 구조를 명확하게 구분하여 관리 |
 
 <br />
 
@@ -150,3 +146,6 @@ TBD..
 TBD..
 
 <br />
+
+[before-exclude]: https://user-images.githubusercontent.com/52397976/133618108-b4e42ead-b52a-4125-bbaf-d407f9c45da3.png
+[after-exclude]: https://user-images.githubusercontent.com/52397976/133618228-ace140bb-362f-4d1c-8bad-65b7452060a1.png
