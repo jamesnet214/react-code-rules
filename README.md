@@ -43,7 +43,9 @@
         <td>Material-UI</td> 
     </tr>
     <tr align="center">
-        <td colspan="3">Windows, Mac, Linux</td> 
+        <td colspan="3">
+          Windows &nbsp; | &nbsp; Mac &nbsp; | &nbsp; Linux &nbsp;
+        </td> 
     </tr>
 </table>
 
@@ -66,16 +68,18 @@ TBD..
 
 <table>
     <tr align="center">
-        <td>Package</td> 
+        <td><b>Package</b></td> 
     </tr>
     <tr align="center">
-        <td><img src="https://user-images.githubusercontent.com/52397976/133802680-038e3282-3160-46b8-9790-68db0ed64537.png" width="130"/></td> 
+        <td><img src="https://user-images.githubusercontent.com/52397976/133802680-038e3282-3160-46b8-9790-68db0ed64537.png" width="110"/></td> 
     </tr>
     <tr align="center">
         <td>NPM</td> 
     </tr>
     <tr align="center">
-        <td colspan="3">Windows, Mac, Linux</td> 
+        <td colspan="3">
+          Windows &nbsp; | &nbsp; Mac &nbsp; | &nbsp; Linux &nbsp;
+        </td> 
     </tr>
 </table>
 
