@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Portal from './apps/portal/views/portal.app';
+import PortalApp from './apps/portal/views/PortalApp';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <BrowserRouter>
-      <Portal/>
+      <PortalApp/>
   </BrowserRouter>,
   document.getElementById('root')
 );

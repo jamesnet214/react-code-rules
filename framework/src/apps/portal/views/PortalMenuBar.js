@@ -1,11 +1,11 @@
 import React from 'react';
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { AppBar, Toolbar, Box } from '@material-ui/core';
-import MenuButton from '../components/menu.button';
-import MailButton from '../components/mail.button';
-import NotificationButton from '../components/notification.button';
-import AccountButton from '../components/account.button';
-import AppTitle from '../components/apptitle.typo';
+import MenuButton from '../components/MenuButton';
+import MailButton from '../components/MailButton';
+import NotificationButton from '../components/NotificationButton';
+import AccountButton from '../components/AccountButton';
+import AppTitle from '../components/AppTitleTypo';
 
 export default function(props) {
     const { isOpen } = props;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
 
-export default function(props) {
+export default function AppTitleTypo(props) {
     const { title } = props;
     
     return (

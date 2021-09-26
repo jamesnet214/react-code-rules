@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route } from 'react-router';
 import { makeStyles, useTheme } from "@material-ui/core/styles";
-import MenuBar from './portal.menubar';
-import NavBar from './portal.navbar';
+import MenuBar from './PortalMenuBar';
+import NavBar from './PortalNavBar';
 import Dashboard from "../../../pages/dashboard/views/dashboard.app";
 import '../design/portal.css';
 
-export default function() {
+export default function PortalApp() {
     const [isOpen, setIsOpen] = React.useState(false);
     const theme = useTheme();
     const useStyles = makeStyles((theme) => ({ 

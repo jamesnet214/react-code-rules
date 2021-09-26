@@ -1,7 +1,7 @@
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import { IconButton, Badge } from '@material-ui/core';
 
-export default function() {
+export default function NotificationButton() {
     return (
         <IconButton size="large"
                     aria-label="show 17 new notifications"

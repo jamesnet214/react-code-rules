@@ -1,11 +1,11 @@
 import React from 'react';
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { Drawer } from '@material-ui/core';
-import MenuTreeView from '../components/menu.treeview';
+import MenuTreeView from '../components/MenuTreeView';
 
 const drawerWidth = 250;
 
-export default function(props) {
+export default function PortalNavBar(props) {
     const { isOpen } = props;
     const theme = useTheme();
     const useStyles = makeStyles((theme) => ({

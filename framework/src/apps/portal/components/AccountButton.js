@@ -1,7 +1,7 @@
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import { IconButton } from '@material-ui/core';
 
-export default function() {
+export default function AccountButton() {
     return (
         <IconButton size="large"
                     edge="end"

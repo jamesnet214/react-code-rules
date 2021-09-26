@@ -8,7 +8,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { List, Collapse, ListItem } from "@material-ui/core";
 
-export default function(prop) {
+export default function MenuTreeViewItem(prop) {
   const { header, icon, pages } = prop;
   const [openCollapse, setOpenCollapse] = React.useState(false);    
   const theme = useTheme();

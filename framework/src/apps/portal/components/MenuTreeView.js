@@ -2,9 +2,9 @@ import React from "react";
 import DateRangeIcon from '@material-ui/icons/DateRange';
 import InboxIcon from "@material-ui/icons/Inbox";
 import MemoryIcon from '@material-ui/icons/Memory';
-import MenuItem from './menu.treeviewitem';
+import MenuItem from './MenuTreeViewItem';
 
-export default function() {
+export default function MenuTreeView() {
   return (
     <div>
         <MenuItem pages={[1, 2, 3]} header={'System'} icon={<MemoryIcon/>}/>
