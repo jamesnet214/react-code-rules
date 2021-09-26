@@ -3,7 +3,7 @@ import { Route } from 'react-router';
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import MenuBar from './PortalMenuBar';
 import NavBar from './PortalNavBar';
-import Dashboard from "../../../pages/dashboard/views/dashboard.app";
+import Dashboard from "../../../pages/dashboard/views/DashboardApp";
 import '../design/portal.css';
 
 export default function PortalApp() {

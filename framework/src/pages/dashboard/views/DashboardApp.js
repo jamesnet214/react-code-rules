@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import Search from './dashboard.search';
-import Content from './dashboard.content';
+import Search from './DashboardSearch';
+import Content from './DashboardContent';
 export default function() {
     return (
         <Grid container>
