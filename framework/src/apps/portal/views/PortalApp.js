@@ -4,7 +4,7 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 import MenuBar from './PortalMenuBar';
 import NavBar from './PortalNavBar';
 import Dashboard from "../../../pages/dashboard/views/DashboardApp";
-import '../design/portal.css';
+import '../../../design/apps/portal/portal.css';
 
 export default function PortalApp() {
     const [isOpen, setIsOpen] = React.useState(false);
