@@ -220,10 +220,14 @@ TBD...
 <br />
 
 ## 5. 화면생성 규칙 (앱)
+TBD..
 
 ## 6. 화면생성 규칙 (컴포넌트)
+TBD..
 
 ## 7. 화면생성 규틱 (페이지)
+TBD..
+
 <br />
 
 [before-exclude]: https://user-images.githubusercontent.com/52397976/133618108-b4e42ead-b52a-4125-bbaf-d407f9c45da3.png
