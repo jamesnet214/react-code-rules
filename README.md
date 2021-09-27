@@ -178,6 +178,17 @@ git 또는 github 등에서 제외 할 폴더/파일이 설정된 파일입니�
 
 <br />
 
+## 2. 프로젝트 구조
+프로젝트 구조는 **src**를 기준으로 아래와 같이 apps, components, design, pages 4개의 상위 폴더를 기반으로 구성되어 있습니다.
+
+**기본구조 (framework/src)**
+> 📁 apps
+> 📁 components
+> 📁 design
+> 📁 pages
+
+
+
 ## 프로젝트 구조
 TBD..
 
