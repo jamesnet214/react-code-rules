@@ -139,6 +139,22 @@ npm install react-route-dom
 
 <br />
 
+1. 예외항목 관리
+React Code Rules 프로젝트는 vscode 설정을 통해 숨김 여부에 대한 예외항목을 관리합니다.
+
+> (F) root/.vscode/settings.json
+
+아래와 같이 file.exclude 노드 하위에 대상을 추가합니다.
+숨김 여부는 **true** or **false**로 표시하려 폴더와 파일을 대상으로 하여 항목을 관리합니다.
+
+'''
+"files.exclude": {
+    "**/node_modules": true
+}
+'''
+
+<br />
+
 ## 프로젝트 구조
 TBD..
 
