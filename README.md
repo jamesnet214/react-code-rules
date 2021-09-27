@@ -205,9 +205,9 @@ git 또는 github 등에서 제외 할 폴더/파일이 설정된 파일입니�
 
 **하위폴더구성**
 
-> 📁 src/pages/dashboard
-> 📁 src/pages/p001
-> 📁 src/pages/p002
+> 📁 src/pages/dashboard  
+> 📁 src/pages/p001  
+> 📁 src/pages/p002  
 
 하위 이름은 채번 규칙에 따른 업무번호를 사용합니다. 하지만 Dashboard와 같이 예외적인 특수 캐이스도 존재합니다.
 
