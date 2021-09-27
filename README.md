@@ -70,12 +70,12 @@
 
 3. **Material-UI**
 리액트 장점을 잘 살린 가장 유명한 오픈소스 UI 프레임워크 중 하나입니다.
-
-  **설치방법**
-  ```
-  npm install @material-ui/core
-  npm install @material-ui/icons
-  ```
+  
+    **설치방법**
+    ```
+    npm install @material-ui/core
+    npm install @material-ui/icons
+    ```
 
 <br />
 
