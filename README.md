@@ -64,7 +64,7 @@
 <br />
 
 ### Node.js
-TBD..
+전세계에서 널리 사용되는 javascript 런타임 패키지입니다. 리액트를 설치하기 위해서는 먼저 `node.js` 설치가 필수입니다.
 
 <br />
 
@@ -80,7 +80,7 @@ npm install @material-ui/icons
 <br />
 
 ## NPM
-**NPM**은 node.js 설치에 포함된 공식 패키지 관리 도구입니다.
+**NPM**은 node.js 설치에 포함된 공식 패키지 관리 도구입니다. 따라서 `node.js` 설치 시에 함께 설치되므로 별도 설치가 필요하지 않습니다.
 
 <table>
     <tr align="center">
