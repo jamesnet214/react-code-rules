@@ -58,17 +58,17 @@
 
 <br />
 
-### Visual Studio Code
+1. **Visual Studio Code**  
 **VS Code**는 리액트를 개발하기 위한 최고의 툴입니다.
 
 <br />
 
-### Node.js
+2. **Node.js**  
 전세계에서 널리 사용되는 javascript 런타임 패키지입니다. 리액트를 설치하기 위해서는 먼저 `node.js` 설치가 필수입니다.
 
 <br />
 
-### Material-UI
+3. **Material-UI**
 리액트 장점을 잘 살린 가장 유명한 오픈소스 UI 프레임워크 중 하나입니다.
 
 **설치방법**
