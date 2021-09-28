@@ -62,20 +62,11 @@
 
 <br />
 
-1. **Visual Studio Code**  
-**VS Code**는 리액트를 개발하기 위한 최고의 툴입니다.
+1. **Visual Studio Code** : 리액트를 개발하기 위한 최고의 툴입니다.
 
-<br />
+2. **Node.js** : 전세계에서 널리 사용되는 javascript 런타임 패키지입니다. 
 
-2. **Node.js**  
-전세계에서 널리 사용되는 javascript 런타임 패키지입니다. 리액트를 설치하기 위해서는 먼저 `node.js` 설치가 필수입니다.
-
-<br />
-
-3. **Material-UI**  
-리액트 장점을 잘 살린 가장 유명한 오픈소스 UI 프레임워크 중 하나입니다.
-  
-    **설치방법**
+3. **Material-UI** : 리액트 장점을 잘 살린 가장 유명한 오픈소스 UI 프레임워크 중 하나입니다.
     ```
     npm install @material-ui/core
     npm install @material-ui/icons
@@ -84,8 +75,7 @@
 <br />
 
 ## 2. NPM (노드 패키지 관리자)
-**NPM**은 node.js 설치에 포함된 공식 패키지 관리 도구입니다. 
-> `node.js` 설치 시에 함께 설치되므로 별도 설치가 필요하지 않습니다.
+**NPM**은 `Node.js` 설치에 포함된 공식 패키지 관리 도구이며, 별도 설치가 필요하지 않습니다.
 
 <table>
     <tr align="center">
@@ -107,13 +97,14 @@
 <br />
 
 
-## 라우트 (Route)
+### 라우터 (Router)
+
+```
+npm install react-router-dom
+```
+
 TBD...
 
-**설치방법**
-```
-npm install react-route-dom
-```
 <br />
 
 ## 3. 예외항목 관리
