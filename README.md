@@ -190,8 +190,9 @@ Portal, Login과 같은 마스터 단위 화면을 포함하고 있으며, 리�
     - 📁 __`files`__  
     - 📁 __`data-files`__
 
-2. **JSX React 규칙**  
-TBD...
+- #### JSX React 규칙 
+
+  TBD...
 
 <br />
 
