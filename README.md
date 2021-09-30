@@ -16,8 +16,8 @@
   <p align="center">
    <a href="https://github.com/devncore/react-code-rules/stargazers"><img src="https://img.shields.io/github/stars/devncore/react-code-rules" alt="Github Stars"></a>
    <img src="https://img.shields.io/github/license/devncore/react-code-rules" alt="License">
-   <a href="https://github.com/devncore/react-code-rules/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/react-code-rules" alt="Commits-per-month"></a>
- </p>
+   <a href="https://github.com/devncore/react-code-rules/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/react-code-rules" alt="Commits-per-month"</a>
+  </p>
 </div>
 
 <br />
@@ -186,9 +186,9 @@ Portal, Login과 같은 마스터 단위 화면을 포함하고 있으며, 리�
 - #### 폴더 이름 규칙 
   프로젝트에서 관리되는 폴더명은 모두 **소문자**이며, 가능한 **하나의 단어**로 구성된 이름을 사용하도록 합니다. 만약 하나 이상의 단어를 사용할 경우, 단어 사이에 **줄표**(-)를 쓰도록 합니다.
 
-    **올바른 폴더명 (예)**
-    > 📁 files  
-    > 📁 data-files 
+    > **폴더 이름 예시**
+    - 📁 __`files`__  
+    - 📁 __`data-files`__
 
 2. **JSX React 규칙**  
 TBD...
