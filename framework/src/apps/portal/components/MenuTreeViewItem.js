@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ExpandLess from "@material-ui/icons/ExpandLess";
-import ExpandMore from "@material-ui/icons/ExpandMore";
-import Pages from "@material-ui/icons/WbSunnyOutlined";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText from "@material-ui/core/ListItemText";
-import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { List, Collapse, ListItem } from "@material-ui/core";
+import ExpandLess from "@mui/icons-material/ExpandLess";
+import ExpandMore from "@mui/icons-material/ExpandMore";
+import Pages from "@mui/icons-material/WbSunnyOutlined";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import ListItemText from "@mui/material/ListItemText";
+import { makeStyles, useTheme } from "@mui/styles";
+import { List, Collapse, ListItem } from "@mui/material";
 
 export default function MenuTreeViewItem(prop) {
   const { header, icon, pages } = prop;

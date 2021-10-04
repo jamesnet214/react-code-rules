@@ -1,6 +1,6 @@
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { IconButton } from '@material-ui/core';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { makeStyles, useTheme } from "@mui/styles";
+import { IconButton } from '@mui/material';
 
 export default function AccountButton() {
     const theme = useTheme();

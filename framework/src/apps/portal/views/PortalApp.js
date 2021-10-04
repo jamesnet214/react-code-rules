@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route } from 'react-router';
-import { makeStyles, useTheme } from "@material-ui/core/styles";
+import { makeStyles, useTheme } from "@mui/styles";
 import MenuBar from './PortalMenuBar';
 import NavBar from './PortalNavBar';
 import Dashboard from "../../../pages/dashboard/views/DashboardApp";
+import DocsApp from "../../../pages/docs/views/DocsApp";
 import '../../../design/apps/portal/portal.css';
 
 export default function PortalApp() {
@@ -29,6 +30,7 @@ export default function PortalApp() {
                     <NavBar isOpen={isOpen}/>
                     <main className={classes.content}>
                         <Route path='/pages1' component={Dashboard}/>
+                        <Route path='/pages9' component={DocsApp}/>
                     </main>
                 </div>
             </div>

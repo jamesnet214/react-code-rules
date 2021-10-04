@@ -1,6 +1,6 @@
-import MailIcon from '@material-ui/icons/Mail';
-import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { IconButton, Badge } from '@material-ui/core';
+import MailIcon from '@mui/icons-material/Mail';
+import { makeStyles, useTheme } from "@mui/styles";
+import { IconButton, Badge } from '@mui/material';
 
 export default function MailButton() {
     const theme = useTheme();

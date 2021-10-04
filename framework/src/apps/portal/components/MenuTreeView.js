@@ -1,8 +1,8 @@
 import React from "react";
-import DateRangeIcon from '@material-ui/icons/DateRange';
-import InboxIcon from "@material-ui/icons/Inbox";
-import MemoryIcon from '@material-ui/icons/Memory';
-import { makeStyles, useTheme } from "@material-ui/core/styles";
+import DateRangeIcon from '@mui/icons-material/DateRange';
+import InboxIcon from "@mui/icons-material/Inbox";
+import MemoryIcon from '@mui/icons-material/Memory';
+import { makeStyles, useTheme } from "@mui/styles";
 import MenuItem from './MenuTreeViewItem';
 
 export default function MenuTreeView() {

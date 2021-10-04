@@ -1,8 +1,12 @@
+# 화면 개발 가이드
+
+```jsx
 import React from 'react';
 import { Grid } from '@mui/material';
-import Search from './DashboardSearch';
-import Content from './DashboardContent';
-export default function() {
+import Content from './DocsContent';
+import Search from './DocsSearch';
+
+export default function DocsApp(props) {
     return (
         <Grid container>
             <Grid item xs={4}>
@@ -14,3 +18,4 @@ export default function() {
         </Grid>
     );
 }
+```

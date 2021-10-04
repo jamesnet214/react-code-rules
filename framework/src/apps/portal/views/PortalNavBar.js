@@ -1,9 +1,23 @@
 import React from 'react';
-import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { Drawer } from '@material-ui/core';
+import { makeStyles, useTheme } from "@mui/styles";
+import { Drawer } from '@mui/material';
 import MenuTreeView from '../components/MenuTreeView';
 
 const drawerWidth = 250;
+
+const FireNav = styled(List)({
+    '& .MuiListItemButton-root': {
+      paddingLeft: 24,
+      paddingRight: 24,
+    },
+    '& .MuiListItemIcon-root': {
+      minWidth: 0,
+      marginRight: 16,
+    },
+    '& .MuiSvgIcon-root': {
+      fontSize: 20,
+    },
+  });
 
 export default function PortalNavBar(props) {
     const { isOpen } = props;

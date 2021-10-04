@@ -1,6 +1,6 @@
 import React from 'react';
-import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { AppBar, Toolbar, Box } from '@material-ui/core';
+import { makeStyles, useTheme } from "@mui/styles";
+import { AppBar, Toolbar, Box } from '@mui/material';
 import MenuButton from '../components/MenuButton';
 import MailButton from '../components/MailButton';
 import NotificationButton from '../components/NotificationButton';

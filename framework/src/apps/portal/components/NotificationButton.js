@@ -1,7 +1,7 @@
 import React from "react";
-import NotificationsIcon from '@material-ui/icons/Notifications';
-import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { IconButton, Badge } from '@material-ui/core';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import { makeStyles, useTheme } from "@mui/styles";
+import { IconButton, Badge } from '@mui/material';
 
 export default function NotificationButton() {
     const theme = useTheme();

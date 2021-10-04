@@ -1,6 +1,6 @@
 import React from 'react';
-import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { Typography } from '@material-ui/core';
+import { makeStyles, useTheme } from "@mui/styles";
+import { Typography } from '@mui/material';
 
 export default function AppTitleTypo(props) {
     const { title } = props;
