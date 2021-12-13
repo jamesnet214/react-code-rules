@@ -110,3 +110,100 @@ export default function MarkdownViewer(props) {
 }
 ```
 
+window
+
+```
+Modal
+Pager
+```
+
+design
+
+```
+dashboard.css
+default.css
+markdown.css
+portal.css
+```
+
+responsive exam
+> App.js
+```
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        display: "flex",
+        minHeight: "100vh",
+        zIndex: 1,
+        position: "relative",
+        overflow: "scroll",
+        backgroundColor: "#cccccc"
+    },
+    top: {
+        zIndex: 100,
+        width: "100%",
+        backgroundColor: "#aaaaaa",
+        top: 0,
+        height: "40px",
+        position: "fixed"
+    },
+    left: {
+        width: "210px",
+        position: "fixed",
+        backgroundColor: "#eeeeee",
+        padding: "60px 20px 60px 20px"   
+    },
+    footer: {
+        position: "fixed",
+        bottom: 0,
+        backgroundColor: "#cccccc",
+        height: "40px",
+        lineHeight: "40px",
+        width: "100%"
+    }
+}));
+
+function App(props) {
+    const classes = useStyles();
+    
+    return (
+        <div>
+            <div className={classes.top}>
+                Top
+            </div>
+            <div>
+                <div className={classes.left}>
+                    <div>Left</div>
+                    <div>Menu1</div>
+                    <div>Menu1</div>
+                    <div>Menu1</div>
+                    <div>Menu1</div>
+                </div>
+                <div className={classes.content}>
+                    <DataGrid/>
+                    <Footer className={classes.footer}/>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+```
+
+exam-datagrid
+
+```
+import { AgGridColumn, AgGridReact } from "ag-grid-react";
+import "ag-grid-community/dist/styles/ag-grid.css";
+import "ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+const rowData = [
+    { make: "Tesla", model: "Model 3", price: 35000 },
+    { make: "Thinkpad", model: "X1 Carbon", price: 2900 },
+    { make: "Apple", model: "Macbook 16 Pro Max", price: 3800 },
+    { make: "Tesla", model: "Model 3", price: 35000 },
+    { make: "Tesla", model: "Model 3", price: 35000 },
+
+];
+```
