@@ -206,4 +206,102 @@ const rowData = [
     { make: "Tesla", model: "Model 3", price: 35000 },
 
 ];
+
+const createRow = (item) => {
+    return <div>{item.name} {item.post} {item.addr}</div>
+}
+
+export default function DataGrid(props) {
+    return (
+        <div className="ag-theme-alpine"
+            style={{height: "calc(100vh - 120px)", width: "100%"}}>
+            <AgGridReact rowData={rowData}>
+                <AgGridColumn field="make"/>
+                <AgGridColumn field="model"/>
+                <AgGridColumn field="price"/>
+            </AgGridReact>
+        </div>              
+    );
+}
+```
+
+examp-footer
+
+```
+import React from "react";
+
+export default function Footer(props) {
+    reutn (
+        <div {...props}>
+            james exam footer area
+        </div>
+    );
+}
+```
+
+exam-design-default.css
+```
+html, body {
+}
+
+.content {
+    overflow-y: scroll;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 100%;
+}
+```
+
+aspnetcore controllers
+```
+[Route("api/exam")]
+[ApiController]
+public class ExamController : ControllerBase
+{
+    [HttpGet("getTimes")]
+    public string GetTimes()
+    {
+        return "2021-06-08";
+    }
+
+    [HttpGet("getUserInfo")]
+    public UserInfo GetUserInfo(string id)
+    {
+        return context.Users.Find(id).FirstOrDefault();
+    }
+
+    [HttpGet("{id}/users")]
+    public UserInfo Users(string id)
+    {
+        return context.Users.Find(id).FirstOrDefault();
+    }
+
+    [HttpPost("completed")]
+    public ActionResult Completed()
+    {
+        string data = Request.From["Data"].ToString();
+        if(Validation.isValid(data)) 
+        {
+            return Redirect("/");
+        }
+        return Ok(o);
+    }
+
+    [HttpPost]
+    public UserInfo Post([FromBody] ReqInfo info)
+    {
+        return context.Users.Find(info.Id).FirstOrDefault();
+    }
+
+    [HttpGet]
+    TBD...
+    
+
+    [HttpPut("{id}")]
+    TBD...
+
+    [HttpDelete("{id}")]
+    TBD...
+
+}
 ```
