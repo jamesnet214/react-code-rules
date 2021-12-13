@@ -20,3 +20,28 @@ localhost.pem
 localhost-key-pem
 tsconfig.json
 ```
+
+apps
+```
+views
+  PortalApp
+  PortalHome
+  PortalMenuBar
+  PortalNavBar
+  PortalSitemap
+components
+  AccountButton
+  AppTitleTypo
+  MailButton
+  MenuButton
+  NavTreeItem
+  NavTreeView
+  NotificationButton
+  SiteTreeItem
+  SiteTreeView
+  SvgCloseSquareIcon
+  SvgMinusSqureIcon
+  SvgNewTabIcon
+  SvgPlusSqaureIcon
+  TopMenuBox
+```
