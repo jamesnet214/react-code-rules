@@ -294,14 +294,100 @@ public class ExamController : ControllerBase
     }
 
     [HttpGet]
-    TBD...
-    
-
+    public UserInfo Get()
+    {
+        return context.Users.ToList();
+    }
+   
     [HttpPut("{id}")]
-    TBD...
+    public UserInfo Put(string id, [FromBody] IEnumerable<UserInfo> items)
+    {
+        return ContextAdapter.Update(id, items); 
+    }
 
     [HttpDelete("{id}")]
-    TBD...
-
+    public UserInfo Delete(string id)
+    {
+        return ContextAdapter.Delete(id); 
+    }
 }
 ```
+
+AspNetCore-AddConfigure
+
+```
+public Startup(IConfiguration configuration)
+{
+    Configuration = configuration;
+}
+
+public IConfiguration Configuration { get; }
+
+public void ConfigureServices(IServiceCollection services)
+{
+    services.Configure<DbInfo>(Configuration.GetSection("DbInfos"));
+    services.Configure<JWTInfo>(Configuration.GetSection("JWTInfos"));
+}
+
+// using configures
+public class ExamController
+{
+    private DbInfo _dbInfo;
+    private JwtInfo _jwtInfo;
+    public ExamController(IOption<DbInfo> dbInfo, IObtions<JWTInfo> jwtInfos)
+    {
+        _dbInfo = dbInfo;
+        _jwtInfo = jwtInfo;
+    }
+}
+```
+
+AspNetCore-ConfigureServices
+> cors
+```
+readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+services.AddCors(options => {
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+    builder => builder.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod());
+});
+
+app.UseCors(MyAllowSpecificOrigins);
+```
+
+> AddControllers
+```
+services.AddControllers();
+```
+
+> Authentication.JWT
+```
+var key = Encoding.ASCII.GetBytes(_secret);
+services.AddAuthentication(x =>
+{
+    x.DefaultAutenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+    .AddJwtBearer(x => 
+    {
+        x.RequireHttpMetadata = false;
+        x.SaveToken = true;
+        x.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(key),
+            ValidateIssuerSigningKey = false,
+            ValidateAudience = false;
+        }
+    }
+);
+```
+
+// Session
+
+// Swagger
+
+// Configure
+
