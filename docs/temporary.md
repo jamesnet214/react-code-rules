@@ -386,8 +386,47 @@ services.AddAuthentication(x =>
 ```
 
 // Session
-
+```
+services.AddDistributeMemoryCache();
+services.AddSession(options => 
+{
+    options.Cookie.Name = ".devncore.session";
+    options.IdleTimeout = TimeSpan.FromMinutes(Settings.EXPIRE_MINUTES);
+    options.Cookie.IsEssential = true;
+});
+```
 // Swagger
 
-// Configure
+```
+services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "DevNcore", Version = "v1" };
+}
+```
 
+// Configure
+```
+if (env.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+    app.UseSwagger();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DevNcore v1"));
+}
+
+app.UseStatusCodePages();
+app.UseHttpRedirection();
+app.UseDefaultFiles();
+app.UseStaticFiles();
+app.UseSession();
+```
+
+// Serilog
+```
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.Console()
+    .WriteTo.File(env.IsDevelopment() ? "c:/logs_dev/log.txt" : "c:/logs_prd/log.txt")
+    .CreateLogger();
+logger.AddSerilog();
+```
+```
