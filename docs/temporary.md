@@ -437,3 +437,87 @@ logger.AddSerilog();
 - ContentHeader
 - FilterTemplate
 ```
+
+> default.css
+
+```
+.portal-root {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.portal-root .layout-frame {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 64px);
+}
+
+.portal-root .layout-appbar {
+    z-index: 10;
+}
+
+.portal-root .layout-appbar div {
+    background-color: #223d80;
+}
+
+.portal-content .page-title {
+    margin: 0px 0px 20px 0px;
+}
+
+.page-title .MuiButton-root {
+    margin-left: 10px;
+}
+
+.page-title .func-area {
+    display: flex;
+    align-items: center;
+    height: 68px;
+}
+
+.portal-content .search-area {
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+    height: calc(100vh - 172px);
+}
+
+.header-label {
+    margin: 2px 0px 2px 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.header-label .text {
+    padding: 0px 2px 3px 2px;
+    color: #666666;
+    font-size: 13px;
+}
+
+.layout-left {
+    padding: 20px;
+    margin: 0px 10px 0px 20px;
+    border-radius: 0px;
+}
+
+.layout-right {
+    padding: 0px;
+    margin: 0px 20px 0px 10px;
+    background-color: transparent;
+    border-radius: 0px;
+    border: 1px solid #dddddd;
+}
+
+.content-layout {
+    padding: 20px;
+}
+
+.svg-list svg {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+```
