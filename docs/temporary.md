@@ -429,4 +429,11 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 logger.AddSerilog();
 ```
+
+> AppTemplate
+
+```
+- ContentTemplate
+- ContentHeader
+- FilterTemplate
 ```
