@@ -520,4 +520,36 @@ logger.AddSerilog();
     height: 50px;
     margin: 5px;
 }
+
+.nav-layout {
+    height: 264;
+    flex-grow: 1;
+    max-width: 400;
+    padding: 0px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.sitemap-header {
+    padding: 5px 10px 5px 10px;
+    margin: 0px;
+    background-color: #fafafa;
+}
+
+.responsive-filter {
+    padding: 0px;
+    margin: 0px 10px 0px 20px;
+    border-radius: 0px;
+}
+
+.portal-content .search-filter {
+    padding: 0px 12px 0px 12px;
+    height: calc(100% - 48px);
+    overflow-y: auto;
+}
+
+.basic-datetimepicker div {
+    height: 32px;
+    font-size: 14px;
+}
 ```
