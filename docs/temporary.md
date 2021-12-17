@@ -553,3 +553,17 @@ logger.AddSerilog();
     font-size: 14px;
 }
 ```
+
+> axios
+```
+axios.get(url)
+    .then(function (response) {
+        console.log(response.data.results);
+    })
+    .catch(function (error) {
+        // error
+    })
+    .then(function () {
+        // finaly
+    }
+```
