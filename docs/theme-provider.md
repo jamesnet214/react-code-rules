@@ -1,3 +1,4 @@
+```
 export default function Portal(props) {
     const theme = createTheme({
         palette: {
@@ -15,3 +16,4 @@ export default function Portal(props) {
         <ThemeProvider/>
     );
 }
+```
