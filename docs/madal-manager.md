@@ -1,4 +1,4 @@
-
+```
 export function loading(value) {
     _loading(value);
 }
@@ -30,5 +30,5 @@ export default function ModalManager(props) {
         </>
     );
 }
-
+```
 
