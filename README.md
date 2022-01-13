@@ -6,7 +6,7 @@
  
 | Star | License | Activity |
 |:----:|:-------:|:--------:|
-| <a href="https://github.com/devncore/react-code-rules/stargazers"><img src="https://img.shields.io/github/stars/devncore/react-code-rules" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/react-code-rules" alt="License"> | <a href="https://github.com/devncore/react-code-rules/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/react-code-rules" alt="Commits-per-month"</a> |
+| <a href="https://github.com/devncore/react-code-rules/stargazers"><img src="https://img.shields.io/github/stars/devncore/react-code-rules" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/react-code-rules" alt="License"> | <a href="https://github.com/devncore/react-code-rules/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/react-code-rules" alt="Commits-per-month"></a> |
 
 <br />
   
